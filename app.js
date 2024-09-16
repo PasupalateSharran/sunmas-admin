@@ -21,7 +21,7 @@ const authRoutes = require('./routes/auth.js');
 
 // Initialisation
 dotenv.config(); 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 app.set('view engine', 'ejs'); // Set EJS as the view engine
 app.set('views', path.join(__dirname, 'views')); // Set the directory for views
 app.use(bodyParser.json()); // Parse JSON bodies
